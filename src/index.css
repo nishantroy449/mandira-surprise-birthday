@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #3C0008;
+  color: white;
+}
+
+.glow {
+  text-shadow: 0 0 20px #ff4d6d, 0 0 40px #ff4d6d, 0 0 60px #ff4d6d;
+}
+
+body, html, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
